@@ -1,0 +1,70 @@
+body {
+    font-family: "メイリオ" "ヒラギノ角ゴシック";
+}
+
+.wrapper .container {
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+
+.my_info {
+    padding: 20px;
+    text-align: center;
+}
+
+.my_icon {
+    border-radius: 50%;
+    width: 60%;
+}   
+
+@media screen and (min-width: 550px) {
+    .my_info {
+        display: flex;
+        padding: 20px;
+        text-align: left;
+    }
+    
+    .my_info .right {
+        margin: auto 0px auto 20px;
+    }
+    
+    .my_icon {
+        border-radius: 50%;
+        width: 200px;
+    }   
+}
+
+.space {
+    height: 50px;
+}
+
+.title {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    border: 5px dotted #aaa;
+    margin: 20px;
+    border-radius: 10%;
+}
+
+.web_sites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.site {
+    width: 200px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.site img {
+    max-width: 55%;
+    height: auto;
+    padding: 20px;
+}
